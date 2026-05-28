@@ -1,0 +1,7 @@
+export default function App() {
+  const [activeModuleId, setActiveModuleId] = useState<GeniusModuleType>("ideator");
+  const [prompt, setPrompt] = useState("");
+  const [sessions, setSessions] = useState<WorkspaceSession[]>([]);
+  
+  // Handles state management, local database syncing, and multi-view compilation...
+}
